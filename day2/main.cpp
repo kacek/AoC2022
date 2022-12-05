@@ -62,6 +62,7 @@ int main()
 				score2 += results2[std::make_pair(round[0], round[2])];
 			}
 		}
+		input.close();
 
 		std::cout <<"part 1 score:" << score << std::endl;
 		std::cout <<"part 2 score:" << score2 << std::endl;
